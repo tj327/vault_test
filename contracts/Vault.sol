@@ -1,10 +1,9 @@
 //SPDX-License-Identifier: MIT
 pragma solidity 0.8.16;
 
-import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
-contract Vault is Ownable {
+contract Vault {
     event Deposited(address, address, uint256);
     event Withdrawn(address, uint256);
 
